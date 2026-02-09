@@ -53,4 +53,4 @@ Thanks to **@CodeAlpha** for providing this opportunity to work on real-world re
 
 ---
 **Author:** Sunit Modak
-**LinkedIn:** [https://www.linkedin.com/in/sunit-modak-6064403a5/](https://www.linkedin.com/in/sunit-modak-6064403a5/)
+**LinkedIn:** [https://www.linkedin.com/in/sunit-modak-6064403a5/](https://www.linkedin.com/in/sunitmodak/)
