@@ -25,26 +25,32 @@ The dataset used for this project contains information about used cars, includin
 * **Pandas** (Data Manipulation)
 * **Matplotlib & Seaborn** (Data Visualization)
 * **Scikit-Learn** (Machine Learning Library)
-* **Linear Regression** (Predictive Model)
+* **Linear Regression** (Baseline Model)
+* **Random Forest Regressor** (Final Model)
 * **Google Colab / Jupyter Notebook** (IDE)
 
 ## 🚀 Key Features
-1.  **Data Preprocessing:** Handled categorical variables (Fuel Type, Transmission, etc.) using One-Hot Encoding.
-2.  **Exploratory Data Analysis (EDA):** Analyzed the relationship between features and car prices.
-3.  **Model Training:** Trained a **Linear Regression** model to predict car prices.
-4.  **Model Evaluation:** Achieved an **R-Squared Score of ~0.85 (85%)** on the test set.
-5.  **Visualization:** Plotted a scatter plot to compare Actual vs. Predicted prices.
+1.  **Data Preprocessing:** Handled categorical variables (Fuel Type, Transmission, etc.) using One-Hot Encoding and Standard Scaling within a Pipeline.
+2.  **Model Comparison:** Trained both **Linear Regression** and **Random Forest Regressor** to find the best performance.
+3.  **High Accuracy:** The Random Forest model achieved an outstanding **R² Score of 0.96 (96%)**.
+4.  **Feature Importance:** Analyzed which factors (like Present Price and Year) influence the car price the most.
+5.  **Interactive Prediction:** Includes a user-input system to predict prices for new cars.
 
 ## 📊 Results
-* **R-Squared Score:** 0.85
-* **Visuals:** The model shows a strong positive correlation between predicted and actual prices.
+* **Linear Regression R²:** 0.85
+* **Random Forest R²:** 0.96 (Selected Best Model)
 
-## 📷 Output
-*(![Actual vs Predicted Car Prices](scatter_plot.png))*
+### 📷 Actual vs Predicted Prices
+The model shows a nearly perfect correlation between predicted and actual prices.
+![Actual vs Predicted](car.png)
+
+### 📷 Feature Importance
+This chart shows that **"Present Price"** is the most important factor in determining the selling price.
+![Feature Importance](car2.png)
 
 ## 🤝 Acknowledgement
 Thanks to **@CodeAlpha** for providing this opportunity to work on real-world regression problems.
 
 ---
 **Author:** Sunit Modak
-**LinkedIn:** [https://www.linkedin.com/in/sunit-modak-6064403a5/]
+**LinkedIn:** [https://www.linkedin.com/in/sunit-modak-6064403a5/](https://www.linkedin.com/in/sunit-modak-6064403a5/)
